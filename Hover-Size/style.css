@@ -1,0 +1,21 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 200px;
+  font-weight: bold;
+  filter: blur(60%);
+  transition: border-color 0.3s, filter 0.3s;
+}
+
+.box:hover {
+  border-color: red;
+  filter: none;
+}
+
+.box.clicked {
+  width: 400px;
+  height: 200px;
+}
