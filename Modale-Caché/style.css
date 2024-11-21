@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+
+#modal {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.dark-bg {
+    background-color: darkgray;
+}

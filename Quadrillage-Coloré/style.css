@@ -1,0 +1,35 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+    width: 306px;
+    height: 306px;
+    flex-wrap: wrap;
+}
+
+.bgcolor-red {
+    background-color: red;
+}
+
+.bgcolor-blue {
+    background-color: blue;
+}
+
+.bgcolor-green {
+    background-color: green;
+}
+
+.bgcolor-yellow {
+    background-color: yellow;
+}
+
+.bgcolor-orange {
+    background-color: orange;
+}
+.bgcolor-purple {
+    background-color: purple;
+}
